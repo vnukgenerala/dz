@@ -1,0 +1,62 @@
+*{
+    box-sizing:border-box
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.team_inner {
+    text-align: center;
+}
+.team_title {
+    text-transform: uppercase;
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: "Tahoma";
+    line-height: 30px;
+    font-weight: lighter;
+}
+.team_line {
+    margin: 0 auto;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+}
+.team_text {
+    color: #86878b;
+    font-family: "Tahoma";
+
+}
+.cards {
+    justify-content: space-between;
+    display: flex;
+    margin: 80px;
+    padding-bottom: 105px;
+}
+.fa-solid {
+    font-size: 70px;
+    color: #ff8b38; 
+}
+.item{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 15px;
+    margin: 0; 
+}
+.title_card {
+    text-align: center;
+    font-family: tahoma;
+    font-weight: lighter;
+    line-height: 40px;
+}
+.text_card {
+    color: #86878b;
+    justify-content: space-between;
+    font-family: tahoma;
+    margin: 0px 0px 55px 0px;
+
+}
